@@ -1,0 +1,394 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    justify-content: center;
+
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+.logo_text{
+    font-size: 26px;
+    padding: 0px 5px;
+    font-weight: 600;
+    color: #3F3A64;
+}
+.bellIcon{
+    color: red;
+    font-size: 24px;
+    
+}
+.fixt-content{
+    position: static;
+   
+   
+   
+    z-index: 9999;
+}
+ul li a{
+    color: #797979;
+    font-size: 22px;
+    padding: 0px 30px;
+
+}
+ul li a:hover{
+    color: #FF8763 !important;
+}
+
+.search{
+    position: relative;
+}
+.searchicon{
+    position: absolute;
+    right: 8px;
+    top: 6px;
+    cursor:progress;
+}
+.containerBox{
+    position: relative;
+}
+.moon{
+    position: absolute;
+    bottom:15px;
+    right: 10px;
+   
+}
+
+.left_item{
+    padding: 100px 0px 10px 30px;
+    margin-top: 20px;
+    color: #fff;
+    position: relative;
+    height: 380px;
+    transition: 0.4s;
+     cursor: pointer;
+
+}
+
+.left_item:hover .hoverShow {
+    z-index: 5555;
+   
+}
+.left_item h2{
+    padding: 10px 0px;
+}
+.reciepe{
+    color: #fff;
+    background-color: #EBC272;
+    border-radius: 10px;
+    text-align: center;
+    padding: 3px 10px;
+}
+.hoverShow {
+    z-index: -1;
+    position: absolute;
+    transition: all 0.1s ease-in-out;
+}
+.profile{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: inline-block;
+
+}
+.profile-small{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+.hoverShow a{
+    color: #7921df;
+    padding: 0px 10px;
+    font-size: 18px;
+    font-weight: 700;
+}
+.clock{
+padding: 0px 10px;
+}
+
+/* right side  */
+.rightCard{
+    margin-top: 20px;
+    padding: 40px 5px 40px 20px;
+    cursor: pointer;
+}
+.rightCard h4{
+    color: #fff;
+    font-weight: 500;
+    margin-bottom: 20px;
+    
+
+}
+.rightCard span{
+    color: #fff;
+
+}
+
+/* add section start  */
+.add{
+    margin: 30px 0px;
+    text-align: center;
+    padding: 10px 0px;
+
+}
+.add img{
+    margin-top: 30px;
+    width: 100%;
+    height: auto;
+}
+.add-caption{
+    color: #3F3A64;
+}
+.addSection{
+    /* height: 200px; */
+    margin: 0 auto;
+   
+}
+
+/* card section start */
+.img{
+    position: relative;
+}
+.time{
+    position: absolute;
+    bottom: 10px;
+    left: 20px;
+    color: #fff !important;
+}
+.time a{
+    padding: 4px 10px;
+    background-color: #7921df;
+    color: #fff;
+    border-radius: 10px;
+    margin-right: 15px;
+
+
+}
+.cards{
+    margin: 30px 0px;
+    margin: 0 auto;
+    justify-content: center;
+}
+.card-items{
+    padding-bottom: 60px !important
+}
+.card-items h4{
+    padding: 10px 5px;
+
+}
+.card-items p{
+    padding-bottom: 30px;
+
+    .card-items .getBtn{
+        padding: 20px 28px !important;
+        border-radius: 10px !important;
+    }
+}
+
+
+
+/* card section end  */
+.name{
+    display: inline-block;
+}
+.name span i{
+    color: rgb(240, 10, 186);
+    
+}
+.read_btn{
+    margin-left: 50px;
+}
+.read_btn i{
+    padding-left: 5px;
+}
+p > i{
+    transition: 0.3s;
+    font-weight: 500;
+    color: #3F3A64;
+    cursor: pointer;
+}
+p>i:hover{
+    color: goldenrod;
+
+}
+
+/* catagores section start  */
+.Categories{
+    padding: 60px 0px;
+}
+
+.text{
+    display: flex;
+    width: 100%;
+    height: 400px;
+    justify-content: center;
+    /* align-items: center; */
+    flex-direction: column;
+    text-align: left;
+}
+.text h3{
+    text-align: left;
+    color: #11110f;
+    margin: 10px 0px;
+}
+.text h3:hover{
+    color: #1f1d2b;}
+
+
+.box:hover img{
+    scale: 0.9;
+    
+}
+.box{
+    text-align: center;
+    margin: 10px 0px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.4s ease-in-out;
+    box-shadow: 0px 0px 21px 4px rgba(0,0,0,0.5);
+-webkit-box-shadow: 0px 0px 21px 4px rgba(0,0,0,0.5);
+-moz-box-shadow: 0px 0px 21px 4px rgba(0,0,0,0.5);
+}
+.box img{
+    width: 100%;
+    scale: 1;
+    transition: 0.3s;
+    height: 300px;
+    border-radius: 10px;
+}
+
+
+.box h5 {
+    padding: 20px;
+}
+.box h5:hover{
+    color: #1f1d2b;}
+/* catagores section end  */
+
+.searchbox{
+    width: 100%;
+    height: 250px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.searchber{
+    position: relative;
+}
+
+.searchber input{
+    width: 100%;
+    height: 60px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid green;
+
+  
+}
+.srearchIcons{
+    color: #ffffff;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    cursor: pointer;
+    background-color: rgb(115, 5, 5);
+    padding: 18px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    transition: 0.3s;
+}
+.srearchIcons:hover{
+    background-color: rgb(197, 25, 25);
+}
+
+
+/* 20-min mealsl section start  */
+.card-img{
+    position: relative;
+}
+.card{
+    cursor: pointer;
+    width: 100%;
+    /* border: 2px solid red; */
+  
+}
+.card .card-img img{
+    width: 100%;
+    height: 200px;
+    scale: 1;
+    transition: .3s;
+    overflow:hidden;
+    box-sizing: border-box;
+}
+.card .card-img img:hover{
+    scale: 1.05;
+}
+.link-name{
+    position: absolute;
+    left: 30px;
+    bottom: 10px;
+    padding: 2px 4px;
+    background-color: #FF8763;
+    border-radius: 10%;
+    transition: .3s;
+}
+.link-name:hover{
+    color: #ffffff;
+   background-color: #d65d38;
+    
+}
+/* .card-body .h4{
+    padding: 10px 0px;
+} */
+
+
+/* 20-min mealsl section end */
+/* footer section start  */
+.footer{
+    width: 100%;
+    height: 377px;
+    background-color: #000;
+    color: #fff;
+    padding: 80px 0px;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+.footer h3{
+    padding-bottom: 10px;
+
+}
+
+.fotter-social ul{
+    display: flex;
+    margin-top: 30px;
+
+}
+.fotter-social ul li a{
+    padding: 10px;
+    background-color: #fff;
+    margin: 10px;
+    border-radius: 50%;
+    
+    
+    
+}
+.fotter-social ul li a i{
+    margin-bottom: 30px;
+    color: blue;
+}
+.copy{
+    color: #fff;
+    padding: 10px 0px;
+    margin-top: 75px;
+    background-color: red;
+}
+
+
+
+/* footer section end */
